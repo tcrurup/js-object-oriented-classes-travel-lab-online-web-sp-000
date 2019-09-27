@@ -42,6 +42,6 @@ class Route{
       divisor = 2;
     }
    
-    return blocksTravelled()/divisor;
+    return this.blocksTravelled()/divisor;
   }
 }
