@@ -43,7 +43,7 @@ class Route{
       let divisor = 3
     }
     
-    return blocksTravelled()/divisor
+    return this.blocksTravelled()/divisor
       
   }
 }
