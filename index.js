@@ -37,13 +37,12 @@ class Route{
   
   estimatedTime(peakHours){
     
-    if(peakHours == true){
-      let divisor = 2
+    let divisor = 3;
+    if(peakHours === true){
+      divisor = 2;
     } else {
-      let divisor = 3
-    }
-    
-    return this.blocksTravelled()/divisor
+   
+    return this.blocksTravelled()/divisor;
       
   }
 }
