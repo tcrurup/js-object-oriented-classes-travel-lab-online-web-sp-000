@@ -18,6 +18,6 @@ class Route{
   }
   
   blocksTravelled(){
-    this.beginningLocation.vertical - this.endingLocation.vertical
+    return this.beginningLocation.vertical - this.endingLocation.vertical
   }
 }
