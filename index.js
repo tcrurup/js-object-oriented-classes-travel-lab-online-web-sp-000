@@ -40,7 +40,7 @@ class Route{
     let divisor = 3;
     if(peakHours === true){
       divisor = 2;
-    } else {
+    }
    
     return this.blocksTravelled()/divisor;
       
