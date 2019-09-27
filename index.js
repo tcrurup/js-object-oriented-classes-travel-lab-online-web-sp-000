@@ -35,7 +35,15 @@ class Route{
     return northSouthBlocks + eastWestBlocks
   }
   
-  estimatedTime(){
+  estimatedTime(peakHours){
     
+    if(peakHours == true){
+      let divisor = 2
+    } else {
+      let divisor = 3
+    }
+    
+    return blocksTravelled()/divisor
+      
   }
 }
